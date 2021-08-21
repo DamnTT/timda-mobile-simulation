@@ -30,6 +30,6 @@
     <param name="publish_frequency" type="double" value="30.0" />
   </node>
 
-  <include file="$(find timda_gazebo)/launch/dual_arm_control.launch" />
+  <!--include file="$(find timda_gazebo)/launch/dual_arm_control.launch" /-->
 
 </launch>
