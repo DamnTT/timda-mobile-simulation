@@ -91,7 +91,7 @@
 	  </link>
 	  <joint
 	    name="${side}_joint_1"
-	    type="revolute">
+	    type="fixed">
 	    <origin
 	      xyz="0 0 0.0550000000000002"
 	      rpy="-1.5707963267949 -2.60398896659329E-32 1.5707963267949" />
@@ -146,7 +146,7 @@
 	  </link>
 	  <joint
 	    name="${side}_joint_2"
-	    type="revolute">
+	    type="fixed">
 	    <origin
 	      xyz="0 0 0"
 	      rpy="-1.5707963267949 7.39557098644699E-32 -1.5707963267949" />
@@ -201,7 +201,7 @@
 	  </link>
 	  <joint
 	    name="${side}_joint_3"
-	    type="revolute">
+	    type="fixed">
 	    <origin
 	      xyz="0 0 0.174"
 	      rpy="1.5707963267949 4.63843178081015E-17 6.91111242388425E-16" />
@@ -256,7 +256,7 @@
 	  </link>
 	  <joint
 	    name="${side}_joint_4"
-	    type="revolute">
+	    type="fixed">
 	    <origin
 	      xyz="-0.0299999998727122 0.115999993001519 0.0359999999999999"
 	      rpy="-1.5707963267949 -1.40443212615082E-14 1.75438367537121E-15" />
@@ -311,7 +311,7 @@
 	  </link>
 	  <joint
 	    name="${side}_joint_5"
-	    type="revolute">
+	    type="fixed">
 	    <origin
 	      xyz="0.029999999872713 0.0359999999999987 0.162"
 	      rpy="1.5707963267949 -8.80083043478898E-16 -2.49800180540655E-16" />
@@ -366,7 +366,7 @@
 	  </link>
 	  <joint
 	    name="${side}_joint_6"
-	    type="revolute">
+	    type="fixed">
 	    <origin
 	      xyz="0 0.108000511190835 0.0360000000000014"
 	      rpy="-1.5707963267949 0 4.46815747097797E-32" />
@@ -425,7 +425,7 @@
 	  </link> -->
 		<!-- <joint
 			name="${side}_joint_7"
-			type="revolute">
+			type="fixed">
 			<origin
 				xyz="0 0.03680 0.135"
 				rpy="0 0 ${toolrot}" />
@@ -486,7 +486,7 @@
 	  </link>
 	  <joint
 	    name="${side}_joint_8"
-	    type="revolute">
+	    type="fixed">
 	    <origin
 	      xyz="0 0 0.3985"
 	      rpy="-1.5708 0 0" />
